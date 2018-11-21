@@ -23,6 +23,20 @@
         <url-pattern>/welcome1</url-pattern>
     </servlet-mapping>
 
+        <servlet>
+        <servlet-name>welcome2</servlet-name>
+        <description>
+            A simple servlet that handles an HTTP post request.
+        </description>
+        <servlet-class>WelcomeServlet2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>welcome2</servlet-name>
+        <url-pattern>/welcome2</url-pattern>
+    </servlet-mapping>
+
+    
 
 </web-app>
 
