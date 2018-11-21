@@ -23,10 +23,12 @@
         <url-pattern>/welcome1</url-pattern>
     </servlet-mapping>
 
-        <servlet>
+
+
+    <servlet>
         <servlet-name>welcome2</servlet-name>
         <description>
-            A simple servlet that handles an HTTP post request.
+            A simple servlet that recieves data from the client before it is used as a response
         </description>
         <servlet-class>WelcomeServlet2</servlet-class>
     </servlet>
@@ -36,7 +38,19 @@
         <url-pattern>/welcome2</url-pattern>
     </servlet-mapping>
 
-    
+
+        <servlet>
+        <servlet-name>welcome3</servlet-name>
+        <description>
+            Like servlet 2 but using a POST request
+        </description>
+        <servlet-class>WelcomeServlet3</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>welcome3</servlet-name>
+        <url-pattern>/welcome3</url-pattern>
+    </servlet-mapping>
 
 </web-app>
 
