@@ -11,14 +11,14 @@ import java.sql.Connection;
 
 // import com.mysql.jdbc.MySQLConnection;
 
-public class Query {
+public class QueryObj {
 
     private Connection connection;
     private ResultSetMetaData metaData;
     private Vector<String> columns;
 
     // Get a valid connection to database
-    public Query(Connection connection){
+    public QueryObj(Connection connection){
         this.connection = connection;
     }
 
