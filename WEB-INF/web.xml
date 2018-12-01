@@ -1,0 +1,30 @@
+<web-app>
+   <!-- General description of your Web application -->
+   <display-name>
+      CNT 4714 Spring 2018 JSP-Servlet-App Example
+   </display-name>
+   <description>
+      This is the Web application in which we 
+      will demonstrate our first servlet example.
+   </description>
+    
+    
+<!-- Servlet definitions -->
+   <servlet>
+      <servlet-name>WebServer</servlet-name>
+      <description>
+         A simple servlet that handles an HTTP get request.
+      </description>
+      <servlet-class>
+         WebServer
+      </servlet-class>
+   </servlet>
+    
+    
+   <servlet-mapping>
+      <servlet-name>WebServer</servlet-name>
+      <url-pattern>/WebServer</url-pattern>
+   </servlet-mapping>
+    
+</web-app>
+
