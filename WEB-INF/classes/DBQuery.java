@@ -9,15 +9,14 @@ import java.sql.Statement;
 import java.util.Vector;
 import java.sql.Connection;
 
-// import com.mysql.jdbc.MySQLConnection;
 
 public class DBQuery {
 
+    //private Connection connection;
     private Connection connection;
     private ResultSetMetaData metaData;
     private Vector<String> columns;
-
-    // Get a valid connection to database
+    
     public DBQuery(Connection connection){
         this.connection = connection;
     }
@@ -28,11 +27,12 @@ public class DBQuery {
         Vector<Vector<String>> _results = new Vector<Vector<String>>();
 
         // Create a aql statement to query
-        Statement statement = (Statement) this.connection.createStatement();
+        Statement statement = this.connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 
         // Execute  statement
         ResultSet results = statement.executeQuery(mQuery);
         metaData = results.getMetaData();
+
 
         int numCols = metaData.getColumnCount();
         setColumns(numCols,metaData);
