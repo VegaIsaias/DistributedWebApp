@@ -2,6 +2,11 @@
 
 Three-Tier Distributed Web-Based Application. Uses servlets running on a Tomcat server to access and maintain a persistent MySQL database using JDBC.
 
+## Query Screenshots
+
+![](http://www.reynodigital.com/etc/command1.png)
+
+![](http://www.reynodigital.com/etc/command2a.png)
 
 ### First-tier
 
@@ -32,3 +37,9 @@ their status will be affected if they have any shipment with quantity >= 100. (S
 
 The back-end consists of a persistent MySQL database under control of the MySQL DBMS server.
 
+
+## Testing
+
+Connection to DB uses "root" for username, and password
+
+The sql script populates a sample database that follows the schema of the fictitious business dealing with shipments and suppliers.
