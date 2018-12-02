@@ -4,9 +4,14 @@ Three-Tier Distributed Web-Based Application. Uses servlets running on a Tomcat 
 
 ## Query Screenshots
 
-![](http://www.reynodigital.com/etc/command1.png)
+![](http://www.reynodigital.com/etc/command1.PNG)
 
-![](http://www.reynodigital.com/etc/command2a.png)
+![](http://www.reynodigital.com/etc/command2a.PNG)
+
+## Architecture
+
+![](http://www.reynodigital.com/etc/arch_diagram.PNG)
+
 
 ### First-tier
 
@@ -18,7 +23,6 @@ The client front-end can run on any web browser, the contents of the page consis
 ### Second-tier
 
 The second-tier servlet, in addition to handling the SQL command interface it also implements the business aplication logic. 
-
 
 
 #### Fictitious Business Logic
@@ -39,6 +43,8 @@ The back-end consists of a persistent MySQL database under control of the MySQL 
 
 
 ## Testing
+
+Application runs on Apache Tomcat/9.0.13 server, simply place the DistributedWebApp in `C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\` 
 
 Connection to DB uses "root" for username, and password
 
