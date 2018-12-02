@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+
 public class DBEngine {
     private String _USER;
     private String _PASSWORD;
@@ -19,8 +20,9 @@ public class DBEngine {
     }
 
     // Establish the database connection
-    public void EstablishConnection() throws SQLException {
-        DBconnection = (Connection) DriverManager.getConnection(this._URL, this._USER, this._PASSWORD);
+    public void EstablishConnection() throws SQLException, ClassNotFoundException {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        DBconnection = DriverManager.getConnection(this._URL, this._USER, this._PASSWORD);
     }
 
 
