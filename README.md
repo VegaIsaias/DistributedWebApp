@@ -10,7 +10,7 @@ Three-Tier Distributed Web-Based Application. Uses servlets running on a Tomcat 
 
 ## Architecture
 
-![](http://www.reynodigital.com/etc/arch_diagram.PNG)
+![](http://www.reynodigital.com/etc/arch_diagram.png)
 
 
 ### First-tier
