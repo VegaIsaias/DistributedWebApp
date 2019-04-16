@@ -84,4 +84,7 @@ select * from suppliers;
   <img height="500" src="http://www.easymachinelearning.net/GitHub/selectq.PNG">
 </p>
 
-Query 4
+
+<p align="center">Query 4</p>
+
+
