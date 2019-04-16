@@ -80,5 +80,8 @@ where pnum = 'P3';
 select * from suppliers;
 ```
 
-![](http://www.easymachinelearning.net/GitHub/selectq.PNG)
+<p align="center">
+  <img height="500" src="http://www.easymachinelearning.net/GitHub/selectq.PNG">
+</p>
+
 Query 4
