@@ -4,13 +4,13 @@ Three-Tier Distributed Web-Based Application. Uses servlets running on a Tomcat 
 
 ## Query Screenshots
 
-![](http://www.reynodigital.com/etc/command1.PNG)
+![](http://www.easymachinelearning.net/GitHub/command1.PNG)
 
-![](http://www.reynodigital.com/etc/command2a.PNG)
+![](http://www.easymachinelearning.net/GitHub/command2a.PNG)
 
 ## Architecture
 
-![](http://www.reynodigital.com/etc/arch_diagram.png)
+![](http://www.easymachinelearning.net/GitHub/arch_diagram.png)
 
 
 ### First Tier
@@ -43,7 +43,7 @@ The back-end consists of a persistent MySQL database under control of the MySQL 
 
 #### MySQL DBMS
 
-![](http://www.reynodigital.com/etc/DBconnection.PNG)
+![](http://www.easymachinelearning.net/GitHub/DBconnection.PNG)
 
 ## Usage
 
@@ -80,5 +80,5 @@ where pnum = 'P3';
 select * from suppliers;
 ```
 
-![](http://www.reynodigital.com/etc/selectq.PNG)
+![](http://www.easymachinelearning.net/GitHub/selectq.PNG)
 Query 4
